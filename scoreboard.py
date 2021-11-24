@@ -15,7 +15,7 @@ class Scoreboard(Turtle):
         self.penup()
         self.goto(-280, 250)
         self.update_scoreboard()
-        self.name()
+        # self.name()
 
     def update_scoreboard(self):
         '''
@@ -37,9 +37,9 @@ class Scoreboard(Turtle):
         '''
         self.goto(0, 0)
         self.write(f"GAME OVER", align="center", font=FONT)
-    def name(self):
-        '''
-        This method write GAME OVER when the game over.
-        '''
-        self.goto(290, -290)
-        self.write(f"By Uthman", align="right", font=("Courier", 12, "normal"))
+    # def name(self):
+    #     '''
+    #     This method write GAME OVER when the game over.
+    #     '''
+    #     self.goto(290, -290)
+    #     self.write(f"By Uthman", align="right", font=("Courier", 12, "normal"))
